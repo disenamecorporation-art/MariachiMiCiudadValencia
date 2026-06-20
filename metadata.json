@@ -1,0 +1,7 @@
+{
+  "name": "Mariachi Mi Ciudad de Valencia",
+  "description": "Un grupo de mariachi premium para eventos especiales",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

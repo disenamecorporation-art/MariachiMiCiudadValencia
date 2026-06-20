@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", sans-serif;
+}
+
+@layer utilities {
+  .bg-accent-gradient {
+    background: linear-gradient(90deg, #563f30, #d0aa5b);
+  }
+  .text-accent-gradient {
+    background: linear-gradient(90deg, #563f30, #d0aa5b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
