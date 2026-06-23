@@ -9,7 +9,7 @@ export default function Highlights() {
   ];
 
   return (
-    <section className="py-20 bg-black border-y border-white/5">
+    <section className="py-20 bg-[#01050a] border-y border-white/5">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((s, i) => (
                 <div key={i} className="text-center group">

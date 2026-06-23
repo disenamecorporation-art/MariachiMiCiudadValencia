@@ -1,6 +1,6 @@
 export default function Showcase() {
   return (
-    <section className="py-24 px-6 bg-[#030303]">
+    <section className="py-24 px-6 bg-[#01050a]">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div className="aspect-video bg-gray-900 rounded-sm overflow-hidden border border-white/5 shadow-2xl">
           <iframe 

@@ -22,7 +22,7 @@ export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <main className="bg-black min-h-screen text-white font-sans selection:bg-[#d0aa5b] selection:text-black">
+    <main className="bg-[#01050a] min-h-screen text-white font-sans selection:bg-[#d0aa5b] selection:text-black">
       <Navbar />
       <Hero onOpenContact={() => setIsModalOpen(true)} />
       <Highlights />

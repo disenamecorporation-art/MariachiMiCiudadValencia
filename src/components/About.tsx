@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="inicio" className="py-32 px-6 bg-[#030303]">
+    <section id="inicio" className="py-32 px-6 bg-[#01050a]">
       <div className="max-w-5xl mx-auto text-center space-y-12">
         <h2 className="text-5xl md:text-7xl font-black text-white tracking-tighter">La Excelencia en Mariachi en Valencia</h2>
         <div className="grid md:grid-cols-2 gap-12 text-left">

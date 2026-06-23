@@ -16,7 +16,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contacto" className="py-32 px-6 bg-[#030303] border-t border-white/5">
+    <section id="contacto" className="py-32 px-6 bg-[#01050a] border-t border-white/5">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-6xl font-light text-accent-gradient mb-20 text-center tracking-widest uppercase">Reserva tu Serenata</h2>
         <div className="grid md:grid-cols-2 gap-16">
@@ -45,12 +45,16 @@ export default function Contact() {
                 </div>
             </div>
             
-            <form onSubmit={handleSubmit} className="space-y-6 bg-[#050505] p-10 border border-white/10 rounded-sm">
+            <form onSubmit={handleSubmit} className="space-y-6">
                 <h4 className="text-xl font-bold text-white mb-8">Solicitud de Reserva</h4>
-                <input required className="w-full bg-[#111] p-5 text-white border-b border-white/20 focus:border-[#d0aa5b] outline-none transition-colors" placeholder="Nombre" value={formData.nombre} onChange={(e) => setFormData({...formData, nombre: e.target.value})} />
-                <input required className="w-full bg-[#111] p-5 text-white border-b border-white/20 focus:border-[#d0aa5b] outline-none transition-colors" placeholder="Email o Teléfono" value={formData.contacto} onChange={(e) => setFormData({...formData, contacto: e.target.value})} />
-                <textarea required className="w-full bg-[#111] p-5 text-white border-b border-white/20 focus:border-[#d0aa5b] outline-none transition-colors h-40" placeholder="Detalles de tu evento (Fecha, lugar, tipo de evento...)" value={formData.detalles} onChange={(e) => setFormData({...formData, detalles: e.target.value})} />
-                <button type="submit" className="w-full bg-accent-gradient py-5 text-white font-bold tracking-widest uppercase text-sm hover:opacity-90 transition-opacity">
+                
+                <input required className="w-full bg-white/5 backdrop-blur-md border border-white/10 p-5 text-white rounded-xl focus:border-[#d0aa5b] focus:ring-1 focus:ring-[#d0aa5b] outline-none transition-all" placeholder="Nombre" value={formData.nombre} onChange={(e) => setFormData({...formData, nombre: e.target.value})} />
+                
+                <input required className="w-full bg-white/5 backdrop-blur-md border border-white/10 p-5 text-white rounded-xl focus:border-[#d0aa5b] focus:ring-1 focus:ring-[#d0aa5b] outline-none transition-all" placeholder="Email o Teléfono" value={formData.contacto} onChange={(e) => setFormData({...formData, contacto: e.target.value})} />
+
+                <textarea required className="w-full bg-white/5 backdrop-blur-md border border-white/10 p-5 text-white rounded-xl focus:border-[#d0aa5b] focus:ring-1 focus:ring-[#d0aa5b] outline-none transition-all h-40" placeholder="Detalles de tu evento (Fecha, lugar, tipo de evento...)" value={formData.detalles} onChange={(e) => setFormData({...formData, detalles: e.target.value})} />
+
+                <button type="submit" className="w-full bg-accent-gradient py-5 text-white font-bold tracking-widest uppercase text-sm rounded-xl hover:opacity-90 transition-opacity">
                     Solicitar Información
                 </button>
             </form>
