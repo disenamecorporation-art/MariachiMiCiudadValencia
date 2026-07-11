@@ -20,10 +20,10 @@ export default function VideoGrid() {
       description: "Presentación en vivo con todo el poder y la elegancia del auténtico mariachi."
     },
     {
-      id: "FFmoU0608JA",
-      title: "Emoción de Cerca",
+      id: "tnsxpdtJS_I",
+      title: "Señora, Señora",
       type: "short",
-      description: "Capturando sonrisas y momentos únicos con nuestro público."
+      description: "Una emotiva interpretación dedicada a todas las madres con el corazón."
     },
     {
       id: "UHplFlFl5_I",
@@ -54,6 +54,12 @@ export default function VideoGrid() {
       title: "Repertorio de Oro",
       type: "video",
       description: "Canciones eternas interpretadas con la máxima excelencia musical."
+    },
+    {
+      id: "6XoHst7zPUk",
+      title: "Pasión y Espectáculo",
+      type: "short",
+      description: "Espectáculo lleno de energía, zapateado y el mejor ambiente para bailar."
     }
   ];
 
